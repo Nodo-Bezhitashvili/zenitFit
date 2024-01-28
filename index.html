@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:ital@0;1&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+
+    <title>zenithFit &mdash; reach your goals</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/logo.webp" alt="zenithFit logo" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#membership">Membership</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#about">Contact</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#about"
+              >Start 7 day free trial</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Elevate your strength, conquer your goals, embrace the grind,
+              thrive
+            </h1>
+            <p class="hero-description">
+              It doesn’t matter if your goal is to get stronger, burn fat, or to
+              just stay fit our world class coaches will guide you every step of
+              the way.
+            </p>
+            <a href="#about" class="btn-cta btn">Start 7 day free trial</a>
+            <a href="#home" class="btn-outline btn">learn more &darr;</a>
+
+            <div class="rating">
+              <ion-icon class="star-icon icon" name="star-outline"></ion-icon>
+              <ion-icon class="star-icon icon" name="star-outline"></ion-icon>
+              <ion-icon class="star-icon icon" name="star-outline"></ion-icon>
+              <ion-icon class="star-icon icon" name="star-outline"></ion-icon>
+              <ion-icon class="star-icon icon" name="star-outline"></ion-icon>
+              <p class="rating-review">
+                <strong>105</strong> five star reviews
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home-services-section" id="home">
+        <h2 class="heading-secondary">Fitness for all, tailored to You!</h2>
+
+        <div class="picture-container">
+          <div class="picture-box">
+            <div class="img-box-gradient">
+              <img
+                class="home-services-img"
+                src="img/section-home-imgs/crossfit.webp"
+                alt="girl tries to climb a rope"
+              />
+            </div>
+            <div class="picture-text">
+              <a class="home-service-btn btn" href="#crossfit-section"
+                >Crosfit classes</a
+              >
+            </div>
+          </div>
+          <div class="picture-box">
+            <div class="img-box-gradient">
+              <img
+                class="home-services-img"
+                src="img/section-home-imgs/strength-workout.webp"
+                alt="a man pulls a barbell"
+              />
+            </div>
+            <div class="picture-text">
+              <a class="home-service-btn btn" href="#strength-training-section"
+                >strength trsining</a
+              >
+            </div>
+          </div>
+          <div class="picture-box">
+            <div class="img-box-gradient">
+              <img
+                class="home-services-img"
+                src="img/section-home-imgs/personal-training.webp"
+                alt="A personal trainer helps girl to train properly"
+              />
+            </div>
+            <div class="picture-text">
+              <a class="home-service-btn btn" href="#personal-tarining-section"
+                >personal training</a
+              >
+            </div>
+          </div>
+          <div class="picture-box">
+            <div class="img-box-gradient">
+              <img
+                class="home-services-img"
+                src="img/section-home-imgs/members-events.webp"
+                alt="Gym members trsin together"
+              />
+            </div>
+            <div class="picture-text">
+              <a class="home-service-btn btn" href="#members-only-events"
+                >Members events</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories grid--center-v">
+        <!-- step 1 -->
+        <div class="categorie-description">
+          <p class="categorie-name" id="crossfit-section">
+            Group CrossFit Classes
+          </p>
+          <h2 class="heading-secondary">
+            Intense, varied workouts fostering strength, endurance, and
+            community camaraderie
+          </h2>
+          <ul class="categorie-list">
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Just 40 minutes long
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Warm up included
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Fun is guaranteed
+            </li>
+          </ul>
+        </div>
+        <div class="categorie-img">
+          <img
+            class="cat-image"
+            src="img/catrgories-img/crossfit-group.webp"
+            alt="A girl performs crosfit training"
+          />
+        </div>
+
+        <!-- step 2 -->
+
+        <div class="categorie-img">
+          <img
+            class="cat-image"
+            src="img/catrgories-img/strength-training.webp"
+            alt="A man tries to lift the dumbell"
+          />
+        </div>
+        <div class="categorie-description">
+          <p class="categorie-name" id="strength-training-section">
+            Strength training
+          </p>
+          <h2 class="heading-secondary">
+            Elevate fitness, sculpt muscles, and boost energy with invigorating
+            workouts
+          </h2>
+          <ul class="categorie-list">
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Powerlifting section
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Olympic platforms
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Dumbells: 5lbs-250lbs
+            </li>
+          </ul>
+        </div>
+
+        <!-- step 3 -->
+
+        <div class="categorie-description">
+          <p class="categorie-name" id="personal-tarining-section">
+            Personal training clases
+          </p>
+          <h2 class="heading-secondary">
+            Elevate your fitness: personalized coaching for a healthier, vibrant
+            lifestyle
+          </h2>
+          <ul class="categorie-list">
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Weightloss
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Competitive CrossFit
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Powerlifting
+            </li>
+          </ul>
+        </div>
+        <div class="categorie-img">
+          <img
+            class="cat-image"
+            src="img/catrgories-img/personal-training.webp"
+            alt="personal trainer helps the girl in training"
+          />
+        </div>
+
+        <!-- step 4 -->
+
+        <div class="categorie-img">
+          <img
+            class="cat-image"
+            src="img/catrgories-img/members-omly.webp"
+            alt="A girl is training and another member of gym is encouraging her"
+          />
+        </div>
+        <div class="categorie-description">
+          <p class="categorie-name" id="members-only-events">
+            Members only events
+          </p>
+          <h2 class="heading-secondary">
+            Exclusive gatherings: Elevate your fitness journey with VIP
+            members-only events
+          </h2>
+          <ul class="categorie-list">
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Friendly competitions
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Monthly challenges
+            </li>
+            <li class="description-list-text">
+              <ion-icon
+                class="list-icon icon"
+                name="checkmark-circle-outline"
+              ></ion-icon>
+              Potlucks and games
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="pricing" id="membership">
+        <header class="pricing-section-header">
+          <p class="categorie-name membership-pricing">Membership</p>
+          <h2 class="heading-secondary">
+            Crushing your health and fitness goals starts here...
+          </h2>
+        </header>
+        <div class="grid-3-col">
+          <div class="pricing-box">
+            <h3 class="heading-ternary">Month to Month</h3>
+            <div class="price">
+              <p class="price-bold"><strong>$160</strong></p>
+              /mo
+            </div>
+            <ul class="features">
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >All clases
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >All member events
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >Full gym access
+              </li>
+            </ul>
+            <p class="small-text">Charges every month unless you cancel</p>
+            <a href="#about" class="buy-now-btn">Start 7 day free trial</a>
+          </div>
+          <div class="pricing-box">
+            <h3 class="heading-ternary">6 Month Membership</h3>
+            <div class="price">
+              <p class="price-bold"><strong>$145</strong></p>
+              /mo
+            </div>
+            <ul class="features">
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >All clases
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >All member events
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >Full gym access
+              </li>
+            </ul>
+            <p class="small-text">Charges every 6 months unless you cancel</p>
+            <a href="#about" class="buy-now-btn">Start 7 day free trial</a>
+          </div>
+          <div class="pricing-box">
+            <h3 class="heading-ternary">1 Year Membership</h3>
+            <div class="price">
+              <p class="price-bold"><strong>$130</strong></p>
+              /mo
+            </div>
+            <ul class="features">
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >All clases
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >All member events
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="icon pricing-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                >Full gym access
+              </li>
+            </ul>
+            <p class="small-text">Charges every year unless you cancel</p>
+            <a href="#about" class="buy-now-btn">Start 7 day free trial</a>
+          </div>
+        </div>
+
+        <div class="grid-3-col">
+          <div class="customer-raiting">
+            <div class="raiting">
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+            </div>
+            <p class="customer-review">
+              “6 months after joining I lost 15lbs and I’m getting stronger.”
+            </p>
+            <img
+              class="customer-img"
+              src="img/customers/customer-1.jpg"
+              alt="customer head photo"
+            />
+          </div>
+          <div class="customer-raiting">
+            <div class="raiting">
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+            </div>
+            <p class="customer-review">
+              “I've gotten so much stronger after joining it's insane. My
+              deadlift increased by 65lbs.”
+            </p>
+            <img
+              class="customer-img"
+              src="img/customers/customer-2.jpg"
+              alt="customer head photo"
+            />
+          </div>
+          <div class="customer-raiting">
+            <div class="raiting">
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+              <ion-icon class="star-icon raiting-star" name="star"></ion-icon>
+            </div>
+            <p class="customer-review">
+              “While I am passionate about health and fitness this gym is more
+              like a community to me than anything!”
+            </p>
+            <img
+              class="customer-img"
+              src="img/customers/customer-3.jpg"
+              alt="customer head photo"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <header class="about-section-header">
+          <p class="categorie-name">About ZenitFit Gym</p>
+          <h2 class="heading-secondary about-heading">
+            "Hi! We're ZenitFit, your local fitness haven in Austin, Texas."
+          </h2>
+          <p class="about-description">
+            ZenitFit Gym was founded by Mia and Jackson in 2017. It's our
+            mission to assist individuals in Austin in achieving fitness,
+            maintaining health, and living life on their terms without fitness
+            being a hindrance.
+          </p>
+        </header>
+        <div class="section-cta">
+          <div class="container">
+            <div class="cta">
+              <div class="cta-text-box">
+                <h2 class="cta-box-heading">Claim your 7 day free trial</h2>
+
+                <form class="cta-form" action="#">
+                  <div>
+                    <input
+                      id="full-name"
+                      type="text"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <input
+                      id="email"
+                      type="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <input id="number" placeholder="Phone number" required />
+                  </div>
+
+                  <div>
+                    <select id="select-where" required>
+                      <option value="">Membership interest...</option>
+                      <option value="Month to Month">Month to Month</option>
+                      <option value="6 Month">6 Month</option>
+                      <option value="1 Year">1 Year</option>
+                      <option value="Else">Else</option>
+                    </select>
+                  </div>
+                  <button class="cta-form-btn">Submit</button>
+                </form>
+              </div>
+              <div class="cta-img-box">
+                <img class="cta-img" src="img/about-section-img.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="logo-container">
+        <a href="#">
+          <img class="logo" alt="zenitFit logo" src="img/logo.webp" />
+        </a>
+      </div>
+      <div class="footer-container grid-4-col">
+        <div class="social-col">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon name="logo-instagram" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon name="logo-facebook" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon name="logo-youtube" class="social-icon"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by zenitFit, Inc.
+            All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">623 Harrison St., 1st Floor, Texas, CA 94107</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@zenitFit.com"
+                >hello@zenitFit.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About zenitFit</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Guide</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

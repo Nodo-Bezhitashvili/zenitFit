@@ -1,0 +1,276 @@
+/* 1344px */
+
+@media (max-width: 84rem) {
+  .hero {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .hero-text-box {
+    margin: 3rem auto;
+  }
+
+  .grid-3-col {
+    /* min-width: 110rem; */
+    gap: 8rem;
+  }
+}
+
+.cat-image {
+  max-width: 60%;
+}
+
+/* 1216px */
+
+@media (max-width: 76rem) {
+  html {
+    font-size: 56.25%;
+  }
+  .picture-container {
+    gap: 0;
+  }
+
+  .grid-3-col {
+    gap: 3rem;
+    padding: 3.2rem 2.4rem;
+  }
+
+  .pricing-box,
+  .customer-raiting {
+    max-width: 28rem;
+  }
+}
+
+/* 1008px */
+@media (max-width: 63rem) {
+  html {
+    font-size: 50%;
+    scroll-behavior: smooth;
+  }
+
+  .logo {
+    height: 15rem;
+  }
+
+  /* mobile navigation */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+    color: #396f43;
+  }
+
+  .main-nav {
+    background-color: #333;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    transform: translateX((100%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  /* categorie section image */
+  .cat-image {
+    max-width: 60%;
+  }
+}
+
+/* 832px */
+@media (max-width: 52rem) {
+  .picture-box {
+    margin: 1rem;
+  }
+
+  .cat-image {
+    max-width: 100%;
+  }
+
+  .grid-3-col {
+    padding: 2rem 0;
+  }
+
+  .pricing-box {
+    max-width: 24rem;
+  }
+  .customer-raiting {
+    max-width: 24rem;
+  }
+}
+
+/* 704px */
+@media (max-width: 44rem) {
+  .main-nav {
+    height: 45%;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .hero-text-box {
+    width: 70%;
+  }
+
+  .picture-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .cat-image {
+    max-width: 80%;
+  }
+
+  .categorie-name {
+    padding: 1.2rem 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  .grid-3-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-box,
+  .customer-raiting {
+    max-width: 30rem;
+  }
+
+  .about-heading,
+  .about-description {
+    max-width: 70%;
+  }
+  .cta-text-box {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .grid-4-col {
+    column-gap: 3.2rem;
+    row-gap: 4.8rem;
+  }
+}
+
+/* 544px */
+@media (max-width: 34rem) {
+  .main-nav-list {
+    gap: 2.4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.8rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-text-box {
+    width: 95%;
+  }
+
+  .btn-cta,
+  .btn-outlne {
+    display: inline-block;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  .picture-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-4-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adress-col,
+  .nav-col {
+    margin: 0 auto;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .footer-heading,
+  .address,
+  .contacts,
+  .nav-col {
+    text-align: center;
+  }
+
+  .about-heading,
+  .about-description {
+    max-width: 90%;
+  }
+  .categorie-description,
+  .categorie-img {
+    margin: 2rem 0 4rem 0;
+  }
+
+  .categories {
+    margin-top: 4.8rem;
+    grid-template-columns: 1fr;
+  }
+  .categorie-img:nth-child(3) {
+    grid-row: 4;
+  }
+
+  .categorie-img:nth-child(7) {
+    grid-row: 8;
+  }
+
+  .about-description {
+    font-size: 1.2rem;
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #f1f3f5;
+  background-color: #131518;
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3rem;
+}
+
+.heading-secondary {
+  margin-top: 9rem;
+  color: #f1f3f5;
+  font-size: 4.4rem;
+}
+.heading-ternary {
+  font-size: 2.4rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.categorie-name {
+  display: inline;
+  border-radius: 5rem;
+  padding: 1.2rem 2.4rem;
+  border: 3px solid #617e67;
+  font-size: 1.8rem;
+}
