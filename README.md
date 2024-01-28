@@ -6,3 +6,4 @@ Features: Responsive Design: ZenitFit adapts seamlessly to different screen size
 Intuitive User Interface: The user interface is designed with simplicity in mind, making it easy for users to navigate and find the information they need.
 
 Workout Plans: Explore carefully crafted workout plans to suit various fitness levels and goals. Whether you're a beginner or an experienced fitness enthusiast, ZenitFit has something for everyone.
+https://nodo0503.github.io/zenitFit/
